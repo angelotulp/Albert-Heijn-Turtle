@@ -1,0 +1,112 @@
+from turtle import *
+
+color("blue")
+Screen().bgcolor("white")
+speed(4)
+
+drawing_area = Screen()
+drawing_area.setup(width=700, height=1000)
+
+#shape
+up()
+goto(-115, 85)
+left(29)
+down()
+begin_fill()
+forward(175)
+for a in range(30):
+    forward(1.5)
+    right(3)
+forward(175)
+for l in range(15):
+    forward(1.5)
+    right(3)
+forward(145)
+for b in range(30):
+    forward(1.5)
+    right(3)
+forward(244)
+for e in range(30):
+    forward(1.5)
+    right(3)
+forward(149)
+for r in range(15):
+    forward(1.5)
+    right(3)
+end_fill()
+
+#ah
+up()
+goto(-15, 46)
+down()
+color("white")
+begin_fill()
+left(22)
+forward(46)
+right(141)
+forward(61)
+left(140)
+forward(30)
+for t in range(70):
+    forward(1.3)
+    right(2)
+forward(113)
+right(90)
+forward(28)
+right(90)
+forward(108)
+for h in range(28):
+    forward(1)
+    left(5)
+forward(55)
+left(40)
+forward(74)
+right(90)
+forward(30)
+right(90)
+forward(35)
+right(20)
+for e in range(60):
+    right(1)
+    backward(1)
+for i in range(62):
+    right(1.6)
+    backward(1)
+right(180.5)
+forward(80)
+for j in range(75):
+    right(1.6)
+    forward(1)
+for n in range(20):
+    right(1)
+    forward(1)
+forward(25)
+left(140)
+forward(27)
+end_fill()
+
+#a
+up()
+goto(-20, -22)
+right(2)
+down()
+begin_fill()
+color("blue")
+left(35)
+forward(52)
+for q in range(40):
+    left(3.7)
+    forward(1)
+forward(60)
+left(10)
+for w in range(35):
+    left(3.7)
+    forward(1)
+forward(45)
+end_fill()
+
+up()
+forward(1000)
+
+done()
+
